@@ -2,10 +2,10 @@
 
 # Created by Ryan Chung Kam Chung
 # Created in December 2020
-# Program prints integers in the range of 1000 and 2000
+# Program converts celsius to fahrenheit
 
 def fahrenheit():
-    # Function prints integers in the range of 1000 and 2000
+    # Function converts celsius to fahrenheit
 
     # Process and output
     print("I convert celcius into farenheit!")
@@ -19,11 +19,11 @@ def fahrenheit():
             celsius = int(celsius_string)
             break
         except Exception:
-            # Outtput
+            # Output
             print("This isn't a valid input")
 
     temperature_in_fahrenheit = celsius * (9/5) + 32
-
+    # Output
     print("The fahrenheit conversion is {}ºF"
           .format(temperature_in_fahrenheit))
 
